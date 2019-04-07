@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="choose">
+        <div>
+            <img src="images/char-boy.png" id="img1" class="selected">
+            <img src="images/char-cat-girl.png" id="img2">
+            <img src="images/char-horn-girl.png" id="img3">
+            <img src="images/char-pink-girl.png" id="img4">
+            <img src="images/char-princess-girl.png" id="img5">
+        </div>
+        <p>按 ⬅️➡️键选择您的角色</p>
+        <p>按 <code>enter</code> 键开始</p>
+    </div>
+
+    <div id="lose" class="popup">
+        You lose
+        <p class="hint">
+            按 <code>enter</code> 重新开始
+        </p>
+    </div>
+    <div id="win" class="popup">
+        You win
+        <p class="hint">
+            按 <code>enter</code> 重新开始
+        </p>
+    </div>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
